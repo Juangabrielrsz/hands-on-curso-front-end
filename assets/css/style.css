@@ -4,6 +4,7 @@
 /* Components */
 @import "./header.css";
 @import "./buttons.css";
+@import "./main.css";
 
 /* reset css*/
 
@@ -13,6 +14,7 @@
   border: 0;
   font-size: 100%;
   font-family: "sourse sans pro" sans-serif;
+  font-weight: 300;
   vertical-align: baseline;
   text-decoration: none;
 }
@@ -21,7 +23,7 @@
   width: 1024px;
   margin: 30px auto;
   display: flex;
-  flex-direction: column;
+
 }
 
 .row {
