@@ -38,7 +38,7 @@
 
   .sobre-web-design figcaption img {
     width: 100px;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
   }
 
   footer .row {
@@ -57,5 +57,21 @@
 @media(max-width: 450px) {
   .container {
     width: 290px;
+  }
+
+  header nav {
+    background: #fff;
+    width: 100%;
+    padding: 10px 0 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  header nav ul {
+
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
   }
 }
